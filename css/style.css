@@ -1,0 +1,91 @@
+@charset "UTF-8";
+ /* fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* fonte Mont */
+@font-face {
+    font-family: 'Mont' ;
+    src: url('fonte/Mont.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+* :root {
+    --corbase: #1EA358;
+    --corfundo: #0D0D0D;
+    --corbotao: #88BF9B;
+    --corextras: #F2F2F2;
+    --fonte--padrão: 'Roboto', Sans-serif;
+    --fonte--titulo: 'Mont', 'Roboto', sans-serif;
+}
+
+/* cabeçalho do site */
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Cor de fundo */
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .nav-menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+.persuasive-text{
+    text-align: center;
+}
+
+.pricing-table {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .plan-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+  }
+  
+  .plan h2 {
+    margin-top: 0;
+  }
+  
+  .plan .price {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan li {
+    margin: 10px 0;
+  }
+  
+  .plan button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
